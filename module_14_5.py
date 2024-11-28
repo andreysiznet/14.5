@@ -9,7 +9,7 @@ from crud_functions import *
 connection = sqlite3.connect('not_telegram.db')
 cursor = connection.cursor
 
-api = '7890006550:AAG_yy6ORoAvP2CCfkZ_vnM8HQfHbDzBHvQ'
+api = '78900065vQ'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
